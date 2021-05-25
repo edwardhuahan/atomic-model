@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
+   sodipodi:docname="dalton.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="399.34453"
+     inkscape:cy="216.64406"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     inkscape:snap-others="true"
+     inkscape:snap-object-midpoints="false"
+     inkscape:snap-center="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:object-nodes="true" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <circle
+       style="fill:#ffaf65;stroke-width:0.264583"
+       id="path833"
+       cx="34.792328"
+       cy="72.243446"
+       r="10.29985"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <circle
+       style="fill:#ffaf65;stroke-width:0.264583"
+       id="path835"
+       cx="64.890068"
+       cy="66.179588"
+       r="17.008928"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <circle
+       style="fill:#ffaf65;stroke-width:0.207257"
+       id="path835-2"
+       cx="98.767578"
+       cy="70.021439"
+       r="13.323661"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <circle
+       style="fill:#ffffff;fill-opacity:1;stroke-width:0.130732"
+       id="path835-2-5-9"
+       cx="154.90298"
+       cy="-13.641358"
+       r="8.4041891"
+       transform="rotate(30)" />
+    <text
+       xml:space="preserve"
+       style="font-size:6.77635px;line-height:1.25;font-family:'Playfair Display';-inkscape-font-specification:'Playfair Display';stroke-width:0.169409"
+       x="55.116402"
+       y="39.845787"
+       id="text848"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan846"
+         x="55.116402"
+         y="39.845787"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Playfair Display';-inkscape-font-specification:'Playfair Display Bold';stroke-width:0.169409">atoms</tspan></text>
+    <rect
+       style="opacity:0.99;fill:#000000;stroke:#000000;stroke-width:0;stroke-linecap:square;stroke-linejoin:round;stroke-dasharray:none"
+       id="rect841"
+       width="0.37797675"
+       height="12.095238"
+       x="64.567444"
+       y="42.386078"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       style="opacity:0.99;fill:#000000;stroke:#000000;stroke-width:0;stroke-linecap:square;stroke-linejoin:round;stroke-dasharray:none"
+       id="rect841-6"
+       width="0.28714213"
+       height="32.515854"
+       x="72.416512"
+       y="-4.2458363"
+       transform="matrix(0.78125841,0.62420774,-0.65306423,0.75730253,0,0)"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       style="opacity:0.99;fill:#000000;stroke:#000000;stroke-width:0;stroke-linecap:square;stroke-linejoin:round;stroke-dasharray:none"
+       id="rect841-6-4"
+       width="0.28714213"
+       height="32.515854"
+       x="33.225437"
+       y="76.677795"
+       transform="matrix(0.79110863,-0.61167567,0.58158064,0.81348876,0,0)"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+  </g>
+</svg>

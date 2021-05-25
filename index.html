@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+
+    <section class="cd-horizontal-timeline">
+        <div class="timeline">
+            <div class="events-wrapper">
+                <div class="events">
+                    <ol>
+                        <li><a href="#0" data-date="01/01/2021" class="selected">1810</a></li>
+                        <li><a href="#0" data-date="05/01/2021">1900</a></li>
+                        <li><a href="#0" data-date="07/01/2021">1904</a></li>
+                        <li><a href="#0" data-date="08/01/2021">1905</a></li>
+                        <li><a href="#0" data-date="10/01/2021">1909</a></li>
+                        <li><a href="#0" data-date="12/01/2021">1911</a></li>
+                        <li><a href="#0" data-date="15/01/2021">1913</a></li>
+                        <li><a href="#0" data-date="20/01/2021">1924</a></li>
+                        <li><a href="#0" data-date="22/01/2021">1926</a></li>
+                    </ol>
+
+                    <span class="filling-line" aria-hidden="true"></span>
+                </div> <!-- .events -->
+            </div> <!-- .events-wrapper -->
+
+            <ul class="cd-timeline-navigation">
+                <li><a href="#0" class="prev inactive">Prev</a></li>
+                <li><a href="#0" class="next">Next</a></li>
+            </ul> <!-- .cd-timeline-navigation -->
+        </div> <!-- .timeline -->
+
+        <div class="events-content">
+            <ol>
+                <li class="selected" data-date="01/01/2021">
+                    <h2>John Dalton</h2>
+                    <em>Billiard Ball Model</em>
+                    <p>
+                        Reignited the theory of the atom and the idea that the atom is indivisible and the smallest unit
+                        of matter.
+                    </p>
+                    <div style="text-align: center;">
+                        <!--<svg id='billiardball' version="1.1" width="500" height="500"></svg> -->
+                        <br>
+                        <img src="dalton.png">
+                    </div>
+                </li>
+
+                <li data-date="05/01/2021">
+                    <h2>Max Planck</h2>
+                    <em>Quantization of Energy</em>
+                    <p>
+                        Concluded that energy must be quantized and began the theory of quantum physics.
+                    </p>
+                </li>
+                <li data-date="07/01/2021">
+                    <h2>J.J Thomson</h2>
+                    <em>Plum Pudding Model</em>
+                    <p>
+                        Using a cathode ray tube, showed that there are negatively charged parts of the atom which would
+                        lead to the discovery of the electron.
+                    </p>
+                    <div style="text-align: center;">
+                        <img src="thomson.png">
+                    </div>
+                </li>
+                <li data-date="08/01/2021">
+                    <h2>Albert Einstein</h2>
+                    <em>Mass-Defect</em>
+                    <p>
+                        Concluded that energy and mass are equivalent and can be converted into one another.
+                    </p>
+                </li>
+                <li data-date="10/01/2021">
+                    <h2>Robert Millikan</h2>
+                    <em>Charge of Electron</em>
+                    <p>
+                        Determined the exact charge of electron through oil drop experiment, also found that this
+                        quantity was the same for all electrons.
+                    </p>
+                </li>
+                <li data-date="12/01/2021">
+                    <h2>Ernest Rutherford</h2>
+                    <em>Planetary Model</em>
+                    <p>
+                        Discovered alpha and beta radiation, also discovered that atoms are mostly empty space with his
+                        gold alpha particle scattering experiment.
+                        Came up with idea that the nucleus is also made up of particles, or positively charged protons.
+                    </p>
+                    <div style="text-align: center;">
+                        <svg id='rutherford' version="1.1" width="500" height="500"></svg>
+                        <br>
+                        <img src="rutherford.png">
+                    </div>
+
+                </li>
+                <li data-date="15/01/2021">
+                    <h2>Niels Bohr</h2>
+                    <em>Energy Level Model</em>
+                    <p>
+                        Using the hydrogen atom, found that only certain wavelengths of radiation were produced and
+                        therefore came up with energy level theory, where electrons exist at certain energy levels
+                        around the nucleus
+                    </p>
+                    <div style="text-align: center;">
+                        <svg id='bohr' version="1.1" width="500" height="500"></svg>
+                        <br>
+                        <img src="bohr.png">
+                    </div>
+                </li>
+                <li data-date="20/01/2021">
+                    <h2>Louis de Broglie</h2>
+                    <em>Wave Mechanical Model</em>
+                    <p>
+                        Theorized electron wave-particle duality by observing wave-like properties from electrons.
+                        helped to answer the question of accelerating particles not producing emr from the earlier
+                        models.
+                    </p>
+                    <div style="text-align: center;">
+                        <br>
+                        <img src="debroglie.png">
+                    </div>
+                </li>
+                <li data-date="22/01/2021">
+                    <h2>Erwin Schrödinger</h2>
+                    <em>Quantum Mechanical Model</em>
+                    <p>
+                        Formulated wave equation that could accurately calculate energy level of electrons. He also
+                        contributed to wave theory of matter.
+                    </p>
+                    <div style="text-align: center;">
+                        <br>
+                        <img src="schrodinger.png">
+                    </div>
+                </li>
+            </ol>
+        </div> <!-- .events-content -->
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mobile/1.4.5/jquery.mobile.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/two.js/0.7.4/two.min.js"></script>
+    <script src="script.js"></script>
+    <script>
+/*        // Billiard ball model
+        $(function () {
+            // Make an instance of two and place it on the page.
+            var billiard = document.getElementById('billiardball');
+            var params = {
+                width: 500,
+                height: 500
+            };
+            var two = new Two(params).appendTo(billiard);
+
+            // two has convenience methods to create shapes.
+            var circleOne = two.makeCircle(250, 100, 50);
+            var circleTwo = two.makeCircle(150, 120, 30);
+            var circleThree = two.makeCircle(350, 110, 40);
+
+            // The object returned has many stylable properties:
+            circleOne.fill = 'rgba(255, 128, 0, 0.66)';
+            circleOne.noStroke();
+            circleTwo.fill = 'rgba(255, 128, 0, 0.66)';
+            circleTwo.noStroke();
+            circleThree.fill = 'rgba(255, 128, 0, 0.66)';
+            circleThree.noStroke();
+
+            two.update();
+
+        })*/
+
+        // Rutherford model
+        $(function () {
+
+            var increment = Math.PI / 256;
+            var TWO_PI = Math.PI * 2;
+
+            var rutherford = document.getElementById('rutherford');
+            var params = {
+                width: 500,
+                height: 500,
+            };
+            var two = new Two(params).appendTo(rutherford);
+
+            var background = two.makeGroup();
+            var middleground = two.makeGroup();
+            var foreground = two.makeGroup();
+
+            var proton = makeProton(two, 6);
+            proton.translation.set(two.width / 2, two.height / 2);
+
+            middleground.add(proton);
+
+            var isBackground = false;
+
+            var electrons = []
+
+            for (var i = 0; i < 4; i++) {
+                electrons[i] = two.makeGroup();
+                switch (i) {
+                    case 2:
+                        electrons[i] = two.makeCircle(two.width * 0.33, two.height / 2, two.height / 16);
+                        break;
+                    case 3:
+                        electrons[i] = two.makeCircle(two.width / 2, two.height * 0.66, two.height / 16);
+                        break;
+                    default:
+                        electrons[i] = two.makeCircle(two.width * 0.33, two.height * 0.66, two.height / 16);
+                }
+
+                electrons[i].noStroke()
+                electrons[i].fill = 'rgb(0, 200, 255)';
+            }
+
+            two
+                .bind('resize', function () {
+
+                    proton.translation.x = two.width / 2;
+                    proton.translation.y = two.height / 2;
+                    path.translation.copy(proton.translation);
+
+                })
+                .bind('update', function (frameCount) {
+
+                    var osc = [];
+                    osc[0] = Math.sin(-frameCount / (Math.PI * 8));
+                    osc[1] = Math.sin(-frameCount / (Math.PI * 9));
+                    osc[2] = Math.sin(-frameCount / (Math.PI * 10));
+                    osc[3] = Math.sin(-frameCount / (Math.PI * 6));
+
+
+                    for (var i = 0; i < 4; i++) {
+                        if (osc[i] >= 0.9 && isBackground) {
+                            foreground.add(electrons[i]);
+                            isBackground = false;
+                        }
+                        if (osc[i] <= -0.9 && !isBackground) {
+                            background.add(electrons[i]);
+                            isBackground = true;
+                        }
+                    }
+
+                    electrons[0].translation.x = osc[0] * two.width / 4 + two.width / 2;
+                    electrons[0].translation.y = -osc[0] * two.height / 4 + two.height / 2;
+                    electrons[1].translation.x = osc[1] * two.width / 4 + two.width / 2;
+                    electrons[1].translation.y = osc[1] * two.height / 4 + two.height / 2;
+                    electrons[2].translation.x = -osc[2] * two.width / 3 + two.width / 2;
+                    electrons[3].translation.y = -osc[3] * two.height / 3 + two.height / 2;
+                })
+                .play();
+        });
+
+        function makeProton(two, size) {
+
+            var color = 'rgba(255, 128, 0, 0.66)';
+            var radius = two.height / size;
+            var gutter = two.height / 20;
+
+            var proton = two.makeCircle(0, 0, radius);
+            proton.noStroke();
+            proton.fill = color;
+
+
+            return proton;
+        }
+
+        // Niels Bohr
+        $(function () {
+            var bohr = document.getElementById('bohr');
+            var params = {
+                width: 500,
+                height: 500,
+            };
+            var two = new Two(params).appendTo(bohr);
+
+            var proton = makeProton(two, 10);
+            proton.translation.set(two.width / 2, two.height / 2);
+            
+            
+            
+            var electrons = []
+            for (var i = 0; i<3;i++) {
+                electrons[i] = two.makeCircle(two.width, two.height / 2, two.height / 24);            
+                electrons[i].noStroke()
+            }
+            electrons[0].fill = '#1dbcdb';
+            electrons[1].fill = '#1d92db';
+            electrons[2].fill = '#1d23db';
+            
+            
+            two.update();
+            
+            two.bind('update', function (frameCount) {
+                var x = []
+                var y = []
+                x[0] = Math.sin(-frameCount / (Math.PI*50))/1.5;
+                y[0]=  Math.cos(-frameCount / (Math.PI*50))/1.5;
+                x[1] = Math.sin(-frameCount / (Math.PI*27))/0.9;
+                y[1]=  Math.cos(-frameCount / (Math.PI*27))/0.9;
+                x[2] = Math.sin(-frameCount / (Math.PI*15))/0.65;
+                y[2]=  Math.cos(-frameCount / (Math.PI*15))/0.65;
+
+                for (var i = 0; i<3;i++) {
+                    electrons[i].translation.x = x[i] * two.width / 4 + two.width / 2;
+                    electrons[i].translation.y = y[i] * two.width / 4 + two.width / 2;                
+                }
+            })
+            .play();
+        });
+</script>
+</body>
+
+</html>
